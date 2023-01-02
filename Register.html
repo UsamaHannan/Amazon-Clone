@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+<style>
+form { margin: 0px 10px; }
+
+    h2 {
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    
+    .container { max-width: 360px;
+        border: 1px solid black;
+     }
+    
+    .divider {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .divider hr {
+      margin: 7px 0px;
+      width: 35%;
+    }
+    
+    .left { float: left; }
+    
+    .right { float: right; }
+    .logoo{
+        text-align: center;
+        margin: 20px 10px 20px 0px;
+    }
+    #signinSubmit{
+        background-color: #f2d48a;
+        border-color: #a88734 #9c7e31 #846a29;
+        color: black;
+        width: 100%;
+        border-radius: 3px;
+    }
+    #signinSubmit:hover{
+        background-color: #e7bc56;
+    }
+    #signinSubmit:active{
+        background-color: #e4b94c;
+        
+    }
+    .row{
+        font-family: "Amazon Ember",Arial,sans-serif;
+        
+}
+    #signinEmail:focus{
+        box-shadow: 0 0 3px 2px orange !important; 
+    }
+    #signupName:focus{
+        box-shadow: 0 0 3px 2px orange !important; 
+    }
+    #signupPassword:focus{
+        box-shadow: 0 0 3px 2px orange !important; 
+    }
+    #signupPasswordagain:focus{
+        box-shadow: 0 0 3px 2px orange !important; 
+    }
+    .siz5{
+        text-align: center;
+        width: 400px;
+        height: 31px;
+      margin: auto;
+        
+       
+    }
+    .btn{
+        background-color: #eeefef;
+        border-color: #e9eaed;
+        width: 100%;
+        text-align: center;
+        border-radius: 3px;
+    }
+    .btn:hover{
+        background-color: #e9eaed;
+        border-color: #e9eaed;
+        box-shadow: 0 0 3px 2px #adb0b8 !important; 
+    }
+    .container{
+        width: 700px;
+        height: 550;
+        
+    }
+    .form-group{
+        margin: 20px 0px 20px 0px;
+        
+    }
+    .siz6{
+        margin-bottom: 5px;
+    }
+    a{
+        color: #0066c0;
+    }
+    a:hover{
+        color: rgb(136, 44, 44);
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="logoo">
+	<img src="Amazon_logo.svg" alt="" width="103px" height="31">
+    </div>
+<!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">
+		<div class="row">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<form method="POST" action="#" role="form">
+						<div class="form-group">
+							<h2>Create account</h2>
+						</div>
+                        <div class="form-group">
+                            <div class="siz6">
+							<label class="control-label" for="signupName"><strong>Your name</strong></label></div>
+							<input id="signupName" type="text" maxlength="50" class="form-control">
+                        
+						</div>
+						<div class="form-group">
+                            <div class="siz6">
+							<strong >Mobile number or email</strong></div>
+							<input id="signinEmail" type="email" maxlength="50" class="form-control">
+						</div>
+						<div class="form-group">
+                            <div class="siz6">
+							<label class="control-label" for="signupPassword"><b>Password</b></label></div>
+							<input id="signupPassword" type="password" maxlength="25" class="form-control" placeholder="At least 6 characters" length="40">
+						</div>
+						<div class="form-group">
+                            <div class="siz6">
+							<label class="control-label" for="signupPasswordagain"><b>Re-enter password</b></label></div>
+							<input id="signupPasswordagain" type="password" maxlength="25" class="form-control">
+						</div>
+						<div class="form-group" style="padding-top: 12px; ">
+							<button id="signinSubmit" type="submit" class="btn btn-success btn-block">Continue</button>
+                            </div>
+                            <div>
+						<p class="form-group">By continuing, you agree to Amazon's <a href="#"> Conditions of Use</a> and <a href="#"> Privacy Notice</a>.</p>
+						</div>
+						<div>
+                            <p class="form-group">Already have an account? <a href="#"> Sign in<br></a> Buying for work? <a href="#"> Create a free business account</a>.</p>
+                            </div>
+						
+						
+					</form>
+                    
+				</div>
+                
+			</div>
+            
+		</div>
+       
+	</div>
+<div>s</div>
+</body>
+</html>
